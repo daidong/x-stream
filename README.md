@@ -37,10 +37,6 @@ Licensing
 ---------
 Please see the file called [LICENSE.md](LICENSE.md).
 
-HDFS support
-------------
-X-Stream plays nice with the Hadoop file system (HDFS). Please see the file called [HDFS.md](HDFS.md).
-
 Python support
 --------------
 X-Stream has experimental Python support -- algorithms written in Python can be executed using the X-Stream C++ engine. To turn Python support on, uncomment relevant lines in the Makefile. For examples how to write algorithms in Python, check *algorithms/bfs/bfs.py* and
