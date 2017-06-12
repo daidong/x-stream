@@ -354,11 +354,6 @@ namespace algorithm {
     x_lib::do_cpu<scatter_gather<A, F> >(graph_storage, ULONG_MAX);
     setup_time.start();
     graph_storage->terminate();
-    if(vm.count("hdfs")){
-        //By Junyao: close all hdfs file
-        using namespace x_lib;
-        hdfs_io::get_instance().closeAll();
-    }
     setup_time.stop();
     wall_clock.stop();
     BOOST_LOG_TRIVIAL(info) << "CORE::PHASES " << sg_pcpu::bsp_phase;
