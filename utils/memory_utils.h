@@ -31,7 +31,6 @@
 #include<aio.h>
 #include "boost_log_wrapper.h"
 #include "../utils/options_utils.h"
-#include "../core/hdfs_io.h"
 
 extern unsigned long stat_bytes_read;
 extern unsigned long stat_bytes_written;
