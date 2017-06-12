@@ -1,5 +1,9 @@
-X-Stream
+X-Stream forked by Dong
 ========
+
+Main Changes
+-----------
+Remove HDFS dependencies to make it compilable in test envrionment.
 
 What is it?
 -----------
